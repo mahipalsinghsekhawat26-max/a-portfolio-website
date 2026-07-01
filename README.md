@@ -9,5 +9,6 @@ Welcome to my personal portfolio repository! This is a simple, clean website des
 
 ---
 
-### 🌐 Live Demo
-You can view the live website here: `[Insert Your Link Here]`
+### checker
+
+* **You Can check it by executing it on any online or offline platform
