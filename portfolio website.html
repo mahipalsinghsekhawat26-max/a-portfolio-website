@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahipal Singh Shekhawat - Portfolio</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --background-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #ecf0f1;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-box {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--secondary-color);
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--secondary-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .tech-tag {
+            display: inline-block;
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            margin-top: 15px;
+            margin-right: 8px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mahipal Singh Shekhawat</h1>
+        <p>2nd-Year B.Tech CSE Student | AI Enthusiast</p>
+        <a href="resume.pdf" class="btn" download>Download My Resume</a>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a 2nd-year B.Tech Computer Science Engineering student at Pratap Institute of Technology and Science, Sikar. I am highly interested in Artificial Intelligence and possess a growing foundation in programming, web development, and data analysis. I am currently seeking an internship opportunity to apply my technical skills to real-world problems, contribute to team projects, and develop professionally under the guidance of industry experts.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-box"><strong>Programming:</strong> C, Python (Learning)</div>
+                <div class="skill-box"><strong>Web Development:</strong> HTML, CSS, JavaScript</div>
+                <div class="skill-box"><strong>Tools:</strong> Power BI, Microsoft Excel, Microsoft Word</div>
+                <div class="skill-box"><strong>Core Competencies:</strong> Data Visualization, Report Automation, Trend Analysis</div>
+                <div class="skill-box"><strong>Soft Skills:</strong> Communication, Teamwork, Problem-Solving, Time Management</div>
+            </div>
+        </section>
+
+        <section id="official-projects">
+            <h2>Official Projects</h2>
+            <div class="project-card">
+                <h3>Interactive Webpage</h3>
+                <p>A published interactive web page hosted via GitHub.</p>
+                <a href="https://github.com/mahipalsinghsekhawat26-max/A-simple-web-page" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </section>
+
+        <section id="unofficial-projects">
+            <h2>Unofficial Projects (Not Published)</h2>
+            
+            <div class="project-card">
+                <h3>Automated Reporting & Visualization Framework</h3>
+                <p>Designed and built an automated reporting system using Power BI and Excel to reduce manual effort in generating periodic performance reports. Created interactive dashboards with dynamic filters, enabling quick analysis of key metrics without manual intervention.</p>
+                <span class="tech-tag">Power BI</span> <span class="tech-tag">Excel</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Multi-Dimensional Trend Analysis Project</h3>
+                <p>Collected and organized multi-variable datasets to identify patterns and correlations across different time periods and categories. Applied data analysis techniques in Excel and Power BI to visualize trend shifts and present findings in a clear, structured format.</p>
+                <span class="tech-tag">Data Analysis</span> <span class="tech-tag">Power BI</span> <span class="tech-tag">Excel</span>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h2>Contact Me</h2>
+        <p>Sikar, Rajasthan, India</p>
+        <p>Email: <a href="mailto:mahipalsinghshekhawat26@gmail.com">mahipalsinghshekhawat26@gmail.com</a></p>
+        <p>Phone: +91 9680322642</p>
+    </footer>
+
+</body>
+</html>
